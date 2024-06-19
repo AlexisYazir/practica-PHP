@@ -14,13 +14,13 @@
     $z = $x + $y;
     $r = $x - $y;
     $d = $x / $y;
-    $e = $x**$y;
+    $e = $x**$x;
     $m = $y*$x;
     echo "La suma de $x + $y = $z <br>";
     echo "La resta de $y - $x = $r <br>";
     echo "La division de $y / $x = $d <br>";
     echo "La multiplicación de $y * $x = $m <br>";
-    echo "La exponenciación de $x ** $y = $e <br>";
+    echo "La exponenciación de $x ** $x = $e <br>";
 ?>
 
 <!DOCTYPE html>
