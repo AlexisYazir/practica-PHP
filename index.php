@@ -5,7 +5,7 @@
     $nombre = "Alexis Yazir";
     $edad = 20;
     $estatura = 1.78;
-    echo "Soy... " .strtoupper($nombre). " tengo " .($edad) ."años y mido " .$estatura . "metros";
+    echo "Soy... " .strtoupper($nombre). " tengo " .($edad) ." años y mido " .$estatura . " metros";
     echo "<br>";
     var_dump(is_int($nombre));
     echo "<br>";
